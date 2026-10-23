@@ -31,8 +31,6 @@ export default function Card({ imagem, titulo, descricao, preco }) {
             Pedir
           </button>
         </div>
-
-
       </div>
 
     </div>
