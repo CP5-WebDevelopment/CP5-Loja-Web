@@ -27,5 +27,39 @@ export default function Cardapio() {
     }
   ]
 
-    // Estrutura base   
+    return (
+    <div className="min-h-screen bg-[#F0E8DF] text-zinc-900 flex flex-col justify-between font-sans">
+      
+      <Navbar />
+
+      {/* Conteudo*/}
+      <main className="max-w-7xl mx-auto px-6 py-32 w-full flex-grow">
+        
+        <div className="text-center mb-16">
+          <h1 className="text-4xl sm:text-6xl font-black uppercase tracking-tighter text-[#DC0B34]">
+            Nosso Cardápio
+          </h1>
+          <p className="text-zinc-700 mt-4 max-w-xl mx-auto text-sm sm:text-base">
+            Explore os melhores sabores da culinária japonesa preparados artesanalmente com ingredientes frescos e selecionados.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {pratos.map((prato) => (
+            <Card 
+              key={prato.id}
+              titulo={prato.titulo}
+              descricao={prato.descricao}
+              preco={prato.preco}
+              imagem={prato.imagem}
+            />
+          ))}
+        </div>
+
+      </main>
+
+      <Footer />
+
+    </div>
+  ) 
 }
