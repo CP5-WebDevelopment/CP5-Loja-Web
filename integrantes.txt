@@ -2,4 +2,4 @@ rm569549 - Renan Martins da Silva
 rm572373 - Yan da Silva Lima
 rm569557 - Davi Yuu Santos Toyota
 
-Link Repositorio: https://github.com/CP5-WebDevelopment/CP5-Loja-Web
+Link do Repositorio: https://github.com/CP5-WebDevelopment/CP5-Loja-Web
