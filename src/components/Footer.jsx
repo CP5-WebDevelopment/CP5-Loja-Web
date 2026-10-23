@@ -13,6 +13,12 @@ export default function Footer() {
           </p>
         </div>
       </div>
+
+      <div className="max-w-7xl mx-auto border-t border-zinc-300 mt-12 pt-6 text-center text-xs text-zinc-500">
+        Hakara Sushi. Todos os direitos reservados.</div>
+
+
+
     </footer>
   )
 }
