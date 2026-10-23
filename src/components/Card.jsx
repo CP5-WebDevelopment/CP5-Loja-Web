@@ -20,7 +20,19 @@ export default function Card({ imagem, titulo, descricao, preco }) {
           <p className="text-zinc-600 text-sm mt-2 leading-relaxed">
             {descricao}
           </p>
-        </div>        
+        </div>
+
+        {/* Preço e Botão de Pedir */}
+        <div className="flex items-center justify-between pt-4 border-t border-zinc-200">
+          <span className="text-lg font-black text-zinc-900">
+            {preco}
+          </span>
+          <button className="bg-[#DC0B34] text-white text-xs font-extrabold uppercase px-4 py-2 rounded-full hover:bg-black transition-colors">
+            Pedir
+          </button>
+        </div>
+
+
       </div>
 
     </div>
