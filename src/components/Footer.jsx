@@ -11,7 +11,22 @@ export default function Footer() {
           <p className="text-zinc-700 text-sm leading-relaxed">
             A verdadeira tradição e arte da culinária japonesa com ingredientes selecionados e cortes precisos.
           </p>
+        </div> 
+
+        <div className="space-y-3">
+          <h4 className="text-lg font-bold text-zinc-900 uppercase">Horário de Atendimento</h4>
+          <p className="text-zinc-700 text-sm">
+            	Seg - Sex: 6:00 às 18:00
+          </p>
         </div>
+
+        <div className="space-y-3">
+          <h4 className="text-lg font-bold text-zinc-900 uppercase">Contato & Endereço</h4>
+          <p className="text-zinc-700 text-sm">
+            	Avenida Paulista
+          </p>
+        </div>
+
       </div>
 
       <div className="max-w-7xl mx-auto border-t border-zinc-300 mt-12 pt-6 text-center text-xs text-zinc-500">
